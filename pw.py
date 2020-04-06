@@ -2,8 +2,8 @@
 # pw.py - Программа для незащищенного копирования паролей.
 
 PASSWORDS = {'email': 'F7mbzdjkbmzx88gjhsjJHGYbn7',
-			 'blog': 'KHkbjkjhIUhJHKjnjBIUhkjnbj',
-			 'luggage': '12345'}
+	     'blog': 'KHkbjkjhIUhJHKjnjBIUhkjnbj',
+	     'luggage': '12345'}
 
 import sys, pyperclip
 if len(sys.argv) < 2:
@@ -18,4 +18,3 @@ if account in PASSWORDS:
 	print('Пароль для ' + account + ' скопирован буфер.')
 else:
 	print('Учетная запись ' + account + ' отсутствует в списке.')
-	
